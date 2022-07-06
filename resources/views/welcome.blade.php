@@ -64,6 +64,10 @@
         </style>
     </head>
     <body>
+        <header>
+            <a href="http://127.0.0.1:8000/home">home</a>
+            <a href="http://127.0.0.1:8000/car">car</a>
+        </header>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
